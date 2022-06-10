@@ -30,6 +30,8 @@ env:
 jobs:
   Toolchain:
     runs-on: ubuntu-20.04
+    timeout-minutes: 120
+    
 
     outputs:
       OPENWRT_ROOT_PATH: ${{ steps.clone.outputs.OPENWRT_ROOT_PATH }}
