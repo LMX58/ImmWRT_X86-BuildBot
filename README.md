@@ -30,6 +30,12 @@
 
 ![内置功能](https://ae02.alicdn.com/kf/Hf29f2d94339d4188bbdde7f3131b500af.png)
 
+## 重要提示：
+在防火墙加入以下DNS规则，避免活动连接数多一点就断网。
+
+iptables -t nat -A PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53
+iptables -t nat -A PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53
+
 ## 鸣谢
 
 感谢以下项目 / 厂商:
