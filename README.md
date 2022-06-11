@@ -2,11 +2,11 @@
 
 ## 项目介绍
 
-1. 提供适配于 树莓派全系、Rockchip 平台、ipq40xx 平台以及 x86 平台设备的 OpenWrt 固件
+1. 提供适配于x86 平台设备的 OpenWrt 固件
 2. 包含丰富的 OpenWrt 原版 LuCI 插件及社区 LuCI 插件
 3. 固件跟随源码更新自动编译，确保获得最新体验
 4. 预配置本地 kmod 软件源，远离 kmod 依赖冲突
-5. 集成绝大多数有线、无线、3G / 4G 网卡驱动，无需额外安装
+5. 集成绝大多数有线网卡驱动，无需额外安装
 6. 预置最新版 Clash 核心、预置 oh-my-zsh，最大程度减少配置成本
 7. 提供全格式固件 / 文件 (ext4/squashfs/ubi/initramfs/rootfs)
 8. 对于高级用户，提供完整的固件/软件包构建工具 (imagebuilder / sdk / toolchain)
